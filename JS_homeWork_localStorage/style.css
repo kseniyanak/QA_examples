@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lib__form-header {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.lib__item {
+    border: none;
+    background-color: rgba(147, 230, 124, 0.35);
+}
+
+.lib__item--author {
+    margin-left: 107px;
+}
+
+.lib__item--name {
+    margin-left: 40px;
+}
+
+.lib__item--genre {
+    margin-left: 109px;
+}
+
+.button__add {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    background-color: #7faa72;
+    height: 40px;
+    width: 140px;
+    margin-left: 120px;
+}
